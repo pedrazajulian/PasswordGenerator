@@ -40,6 +40,7 @@ function generate() {
             alert("At least one character type must be selected")
         }
     }
+    
     var characters = '';
     characters += (lowerSelection ? lower : '');
     characters += (upperSelection ? upper : '');
