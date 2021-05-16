@@ -6,6 +6,10 @@ var numbers = '1234567890';
 
 var pwd = '';
 
+var lowerSelection = false;
+var upperSelection = false;
+var specialSelection = false;
+var numberSelection = false;
 
 function generate() {
     var confirmLength = '';
@@ -30,6 +34,10 @@ function generate() {
 
         if (confirm("Would you like to use Numbers?") == true) {
             numberSelection = true
+        }
+
+        if (lowerSelection === false && upperSelection === false && specialSelection === false && numberSelection === false) {
+            alert("At least one character type must be selected")
         }
     }
     var characters = '';
