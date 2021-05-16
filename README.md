@@ -13,4 +13,4 @@
 
 <a href="https://pedrazajulian.github.io/PasswordGenerator/">Click here to get your password now!!!</a>
 
-![the following image shows the screen shot from the homework] (https://github.com/pedrazajulian/PasswordGenerator/blob/main/images/screenshot.PNG)
+![the following image shows the screen shot from the homework](https://github.com/pedrazajulian/PasswordGenerator/blob/main/images/screenshot.PNG)
